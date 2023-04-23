@@ -1,0 +1,156 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+margin: 10px;
+padding: 0px;
+}
+/* ส่วนที่1 */
+.container-1
+{
+width:auto;
+max-width:auto;
+margin:  auto;
+display: block;
+}
+.main-content-1
+{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.item
+{
+    width: 600px;
+    height: 130px;
+    margin: 20px;
+}
+.item-1
+{
+    background-color:#20B2AA;
+}
+.item-2
+{
+    background-color:#006400;
+}
+.item-3
+{
+   background-color: #FF8c00; 
+}
+.item-4
+{
+    background: #8B0000;
+}
+.h1
+{
+    font-size: 30px;
+    color: aliceblue;
+    
+}
+.p
+{
+    color: aliceblue; 
+}
+.p-ข้อมูลเพิ่มเติม
+{
+    text-align: center;
+    color: aliceblue; 
+}
+/* ส่วนที่ 2 */
+.row-1
+{
+    display: flex;
+}
+.coloumn-1
+{
+    width:40%;
+    margin:left;
+    margin: 20px;
+    border:1px solid black;
+}
+.flex-container
+{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box
+{
+    width: 105px;
+    height: 50px;
+    margin: 5px;
+    background-color:#dcdcdc;
+}
+.p-icon
+{
+    font-size: 0.3px;
+    text-align: center;
+}
+.coloumn-2
+{
+    width:60%;
+    height: 250px;
+    margin:left;
+    border:1px solid black;
+}
+.tr
+{
+    border: 0.3px solid black;
+    text-align: center;
+}
+.th
+{
+    border: 0.3px solid black;
+    text-align: center;
+}
+.td
+{
+    border: 0.3px solid black;  
+    text-align: center;
+}
+.row-2
+{
+    display: flex;
+    width: 100%;
+}
+.coloumn-3
+{
+    width: 50%;
+    height:200px;
+    margin:left;
+    margin: 20px;
+    border:1px solid black;
+}
+.coloumn-4
+{
+    width: 50%;
+    margin:left;
+    margin: 20px;
+    border:1px solid black;
+}
+.tr-1
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+.th-1
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+}
+.td-1
+{
+    border: 0.3px solid black;
+    border-collapse: collapse;
+    width: auto; 
+    text-align: center;
+}
+
+    
+
+    
+
